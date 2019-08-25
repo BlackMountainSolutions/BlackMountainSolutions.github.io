@@ -1,6 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     position: relative;
+    cursor: default;
 }
 
 .header {
@@ -26,6 +27,7 @@ body {
 .section {
     padding-top: 140px;
     padding-bottom: 150px;
+    background-color: #fffcfa;
 }
 
 .title {
@@ -42,8 +44,8 @@ body {
     text-shadow: 0 0 1px black;
 }
 
-.section.contact {
-    background-image: url('../images/backgrounds/contact-background.jpg');
+.section.get-in-touch {
+    background-image: url('../images/backgrounds/get-in-touch-background.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -70,10 +72,21 @@ body {
     font-weight: bold;
     color: #ffa19f;
     border: 1px solid transparent;
+    padding-left: 8px;
+    padding-right: 8px;
+    margin-right: 8px;
 }
 
 .btn-nav-outline.active,
 .btn-nav-outline:hover {
     color: #fe645e;
     border-bottom-color: #ffa19f;
+}
+
+.zoom-animation {
+    transition: all ease-in 100ms;
+}
+
+.zoom-animation:hover {
+    transform: scale(1.03);
 }
