@@ -4,7 +4,7 @@ body {
     cursor: default;
 }
 
-.bg-pink {
+.navbar {
     background-color: #11252c;
 }
 
@@ -104,7 +104,7 @@ body {
 }
 
 .zoom-animation {
-    transition: all ease-in 100ms;
+    transition: all ease-in 125ms;
 }
 
 .zoom-animation:hover {
